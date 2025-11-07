@@ -24,9 +24,12 @@ jtexport notebooks/ --outdir build/exports --project-root .
 # Keep magics, fail if a file has no export cells
 jtexport . --keep-magics --fail-on-empty
 
+```
 
 ## Example
+
 Consider a Jupytext file nb/example.py like:
+
 ```python
 # %%
 #export
